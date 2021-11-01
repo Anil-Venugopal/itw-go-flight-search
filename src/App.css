@@ -1,0 +1,46 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-bar-container{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input{
+  background:rgba(0,0,0,0.1);
+  border:1px solid rgba(0,0,0,0.1);
+  height:28px;
+  width:100%;
+  border-radius:0.5rem;
+  margin-top:1rem;
+}
+.input-outer-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+@media only screen and (max-width:980px){
+  .input-outer-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+.input-container{
+  display:flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items:center;
+  padding:0.1rem;
+  margin:0.5rem;
+}
